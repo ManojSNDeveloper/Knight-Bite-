@@ -1,0 +1,186 @@
+*{
+    margin: auto;
+ }
+
+ .img-logo{
+   height: 70px;
+   width: 180px;
+ }
+
+ nav{
+   background-image: url(./Assets/knight\ bite\ menu.webp); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+ }
+
+
+ nav {
+    background-color: rgb(0, 0, 0, 0.12);
+    height: 780px;
+ }
+
+ .home a:hover{
+   color: rgb(146, 87, 146);
+   transition: 0.5s;
+ }
+
+ .bite{
+    margin-left: 110px;
+    margin-right: 600px;
+    color: white;
+ }
+
+
+ .home a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .home{
+   margin-left: 190px;
+   padding-right: 120px;
+ }
+
+
+.pppp{
+    display: inline;
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ }
+
+
+.maindiv{
+   position: fixed;
+}
+
+ .maindiv {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+     background-color: rgba(0, 0, 0, 0.318);   
+ }
+
+ /*body...............................................................**************************/
+
+ .head1{
+    color: white;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 800;
+ }
+
+.img1{
+    height: 140px;
+    width: 109px;
+    text-align: center;
+ }
+
+ .img11{
+    height: 90px;
+    width: 60px;
+    text-align: center;
+ }
+
+ .img111{
+    height: 70px;
+    width: 90px;
+    text-align: center;
+ }
+
+ .img2{
+    height:30px;
+    width: 30px;
+ }
+
+ .maindiv2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 210px;
+    padding-left: 220px;
+    padding-right: 150px;
+ }
+ .photo1 , .photo2 , .photo3 , .photo4 , .photo5 , .photo6{
+    transition: 0.4s;
+
+ }
+ 
+
+ .maindiv3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 180px;
+    padding-right: 150px;
+ }
+
+ .photo1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+     transform: scale(0.9);
+}
+
+.photo2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+    transform: scale(0.9);
+}
+
+.photo3:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+    transform: scale(0.9);
+}
+
+.photo4:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+    transform: scale(0.9);
+}
+
+.photo5:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+    transform: scale(0.9);
+}
+
+.photo6:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.469);
+    background-blend-mode: darken;
+    transform: scale(0.9);
+}
+
+ 
+ 
+ .final1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+     box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+     height: 50px;
+     width: 100%;
+   }
+ 
+ .pfinal{
+    color: white;
+    font-size: 15px;
+  }
+
+  .message{
+    font-size: 4rem;
+    color: rgb(237, 36, 70);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+ 
+ }

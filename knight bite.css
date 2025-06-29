@@ -1,0 +1,353 @@
+ *{
+    margin: auto;
+ }
+
+ .img-logo{
+   height: 70px;
+   width: 180px;
+ }
+
+ nav{
+   background-image: url(./Assets/app-link-background.svg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+ }
+
+
+ nav {
+    background-color: rgb(0, 0, 0, 0.12);
+    height: 780px;
+ }
+
+ .home a:hover{
+   color: rgb(146, 87, 146);
+   transition: 0.5s;
+ }
+
+ .bite{
+    margin-left: 110px;
+    margin-right: 600px;
+    color: white;
+ }
+
+
+ .home a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .home{
+   margin-left: 190px;
+   padding-right: 120px;
+ }
+
+
+p{
+    display: inline;
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ }
+
+
+.maindiv{
+   position: fixed;
+}
+
+ .maindiv {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+     background-color: rgba(0, 0, 0, 0.318);
+     
+ }
+
+ .body{
+     color: white;
+     font-size: 20px;
+      font-weight: bolder;
+     font-style: normal;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    padding-top: 290px;
+    font-size: 4rem;
+  }
+
+ .button{
+   padding: 10px 20px;
+   width: 195px;
+   background-color: rgb(255, 86, 114);
+   color: white;
+   border-radius: 9px;
+   font-weight: 700;
+   font-size: 19px;
+   border: none;
+   margin-top: 60px;
+   display: block;
+   justify-content: center;
+   cursor: pointer;
+   transition: 0.4s;
+  }
+
+  .button:hover{
+   transform: scale(1.1);
+  }
+
+.what{
+   text-decoration: none;
+}
+
+div .soo{
+   font-size: 1.8rem;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-right: 30px;
+   
+}
+
+ .icon{
+ display: inline-flex; 
+ padding-left: 560px;
+ margin-top: -20px;
+}
+
+.play{
+   width: 220px;
+   height: 150px;
+   transition: 0.5s;
+   margin-left: 20px;
+}
+
+.ios{
+   width: 220px;
+   height: 150px;
+   transition: 0.5s;
+   margin-right: 20px;
+}
+ 
+
+
+.play:hover{
+   transform: scale(0.9);
+}
+.ios:hover{
+   transform: scale(0.9);
+}
+
+ 
+
+.p1 {
+   font-size: 1rem;
+   margin-left: 5px;
+}
+
+.p2{
+   font-size: 1.5rem;
+}
+
+/** section part **/
+
+section{
+   padding-top: 50px;
+   background-color: rgba(0, 0, 0, 0.045);
+   height: 620px;
+}
+
+section h1{
+   font-size: 3rem;
+   display: flex;
+   color: rgba(0, 0, 0, 0.653);
+   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+   justify-content: center;
+    padding: 50px;
+}
+
+.main-img{
+   display: flex;
+}
+
+.bree{
+   margin-left: 50px;
+   width:30%;
+   height: 350px;
+    
+}
+
+.ppoo{
+   height: 220px;
+   width: 220px;
+}
+
+.wee{
+   color: rgba(0, 0, 0, 0.675);
+   font-size: 1.2rem;
+   display: flex;
+    text-align: center;
+   letter-spacing: 1.01px;
+   padding-top: 35px;
+}
+
+/** footer part 1......................................................................................**/
+
+.foot{
+   background-image: url(./Assets/banner-1.webp);
+   background-size: cover;
+   height: 1000px;
+}
+
+.last{
+   font-size: 6rem;
+   font-weight: 800;
+   display: flex;
+   font-family: cursive;
+   justify-content: center;
+   padding-top: 450px;
+   color: rgb(255, 255, 255);
+   text-shadow: 0px 0px 10px black;
+}
+
+/** footer part 2....................................................................................... **/
+
+.foot10{
+   background-image: url(./Assets/banner-2.webp);
+   background-size: cover;
+   height: 1000px;
+}
+
+.last10{
+   font-size: 5rem;
+   text-align: center;
+   font-weight: 800;
+   display: flex;
+   font-family: cursive;
+   justify-content: center;
+   padding-top: 450px;
+   color: rgb(255, 255, 255);
+   text-shadow: 0px 0px 10px black;
+}
+
+.button10{
+   display: flex;
+   justify-content: center;
+   margin-top: 180px;
+   border: 1.3px solid white;
+   padding: 10px 25px;
+   background-color: transparent;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.message{
+   font-size: 4rem;
+   color: rgb(237, 36, 70);
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+
+}
+
+/** Ending part........................................................................................ **/
+
+
+.teri{
+   padding-top: 40px;
+   font-size: 3rem;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.032);
+}
+
+
+.foot2 {
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif ;
+   display: flex;
+    padding: 65px;
+    background-color: rgba(0, 0, 0, 0.032);
+}
+
+.foot2 p{
+   font-size: 1.4rem;
+}
+
+.foot2 ul{
+   font-size: 1.4rem;
+}
+
+
+.big{
+   font-size: 2rem;
+   color: rgba(0, 0, 0, 0.801);
+}
+
+.foot2 p{
+   font-size: 1.2rem;
+   color: rgba(0, 0, 0, 0.611);
+}
+
+
+.contact{
+   width: 500px;
+}
+
+.quick{
+   width: 500px;
+   margin-left: 100px;
+}
+
+.email{
+   width: 900px;
+   margin-left: 100px;
+}
+
+.email p{
+   line-height: 2rem;
+}
+
+.btn20{
+   width: 500px;
+   height: 60px;
+   font-size: 24px;
+   border-radius: 40px;
+   outline: none;
+   border: 1px solid black;
+   text-align: center;
+}
+
+span{
+   font-size: 3.5rem;
+   display: flex;
+   
+} 
+
+.final{
+   background-color: rgba(0, 0, 0, 0.032);
+   display: flex;
+   justify-content: center;
+}
+
+.final1{
+   background-color: rgba(0, 0, 0, 0.032);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+ }
+
+.pfinal{
+   color: white;
+   font-size: 15px;
+ }
+
+ 
